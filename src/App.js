@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import '../node_modules/font-awesome/css/font-awesome.css'
-import Place from './Place'
-import Horario from './Horario'
-import Rating from './Rating'
-import Reviews from './Reviews'
-import NearbyPlace from './NearbyPlace'
+import Place from './components/Place'
+import Horario from './components/Horario'
+import Rating from './components/Rating'
+import Reviews from './components/Reviews'
+import NearbyPlace from './components/NearbyPlace'
 
 export default class App extends Component {
 
